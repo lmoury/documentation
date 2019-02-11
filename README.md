@@ -1,11 +1,3 @@
-# utilisation-de-git-hub
+# documentation divers
 
-git clone urlGithub
-
-git add . ou git add fichierAajouter
-
-git commit -m "descritpion"
-
-git remote -v
-
-git push orign brancheAjouter 
+1) Github
