@@ -1,0 +1,14 @@
+Commenter/décommenter une ou plusieurs lignes de code
+Une seule ligne: placer le curseur du clavier à n’importe quel endroit sur la ligne de code qu’on souhaite commenter et taper ctrl + /.
+Plusieurs lignes: sélectionner la totalité des lignes de code qu’on souhaite commenter et taper ctrl + /.
+Effectuer la même manipulation pour décommenter.
+
+
+Remplacer automatiquement un terme présent à plusieurs endroits dans un fichier
+ctrl + f
+taper le terme à remplacer
+ctrl + F3
+
+
+A Color Picker for Atom
+CTRL-ALT-C
