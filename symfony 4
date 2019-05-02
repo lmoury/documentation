@@ -1,0 +1,23 @@
+Utilisation de doctrine
+
+1. Modifier dans le fichier .env apres ###> doctrine/doctrine-bundle ### la ligne DATABASE_URL=mysql://root:''@127.0.0.1:3306/forumsymfony
+
+2.ouvrez le terminal puis tapez : php bin/console doctrine:database:create
+
+3.Pour insert une table avec des champs faite comme suit : php bin/console make:entity
+
+Choiser le nom de votre table
+
+ensuite le nom du champ puis son type sa taille et si il est null ou pas repetez l'operation autant de fois que nécessaire.
+
+pour reajouter des champs faite : php bin/console make:entity nomDeLaTable.
+
+ensuite pour creer le fichier de migration : php bin/console make:migration
+
+ensuite on va envoyer ce qu on na cree en base de donne : php bin/console doctrine:migrations:migrate
+
+ 
+
+
+
+
