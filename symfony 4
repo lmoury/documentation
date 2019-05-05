@@ -16,7 +16,13 @@ ensuite pour creer le fichier de migration : php bin/console make:migration
 
 ensuite on va envoyer ce qu on na cree en base de donne : php bin/console doctrine:migrations:migrate
 
- 
+
+POUR CREER UN FORMULAIRE
+
+1. php bin/console make:form
+1a. Nom du formulaire doit finir par Type
+1b. optionnel non de l objet a relier au formulaire 
+
 
 
 
